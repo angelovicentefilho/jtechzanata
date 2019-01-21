@@ -47,14 +47,4 @@ markdown_extensions:
   - footnotes
   - codehilite:
       linenums: false
-  - pymdownx.critic
-  - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - pymdownx.snippets
