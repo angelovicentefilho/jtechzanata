@@ -1,0 +1,66 @@
+site_name: Jtech Translate Zanata
+nav:
+  - Administrador:
+    - Geral: admin/administrator_guide.md
+    - Contas: admin/accounts/accounts.md
+    - Projetos: admin/projects/projects.md
+    - Versões:
+      - Visão Geral: admin/versions/versions.md
+      - Junte-se a um grupo: admin/versions/version_groups.md
+      - Mesclar Versões: admin/versions/merge_version.md
+    - Linguas: 
+      - Equipe de Idioma: admin/language/equipe_idiomas.md
+      - Adicionar Membros: admin/language/add_members.md
+      - Modificar Papeis: admin/language/modify_role.md
+    - Grupos: admin/groups/groups.md
+  - Programador: 
+      - Visão Geral: programmer/programmer_guide.md
+      - Gerador Auxiliar: programmer/gerador_auxiliar.md
+      - Zanata Client:
+        - Visão Geral: programmer/zanata_cli.md
+        - Instalação no Linux: programmer/install_linux.md
+        - Instalação no Windows: programmer/install_windows.md
+        - Instalação Manual: programmer/install_manual.md
+        - Configuração: programmer/zanata_cli_config.md
+        - Comandos: programmer/zanata_cli_commands.md
+  - Tradutor: 
+    - Visão Geral: translator/translator_guide.md
+    - Editor: translator/editor.md
+    - Visualização: translator/editor_view.md
+theme: 
+  #name: readthedocs
+  name: material
+  palette:
+    primary: 'Red'
+  language: 'pt'
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - rust
+  extra:
+  search:
+    language: 'pt, es, en'
+  favicon: http://www.jtech.com.br/wp-content/uploads/2015/06/favico.png
+markdown_extensions:
+  - admonition
+  - meta
+  - footnotes
+  - codehilite:
+      linenums: false
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
