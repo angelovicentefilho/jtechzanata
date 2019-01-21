@@ -28,8 +28,8 @@ nav:
     - Editor: translator/editor.md
     - Visualização: translator/editor_view.md
 theme: 
-  #name: readthedocs
-  name: material
+  name: readthedocs
+  #name: material
   palette:
     primary: 'Red'
   language: 'pt'
